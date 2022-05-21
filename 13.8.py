@@ -25,8 +25,8 @@ for i in range(tic_num):
                 break
         except ValueError:
             print('Введите целое число')
-if tic_num > 5:
-    price_all = price_all - ((price_all / 100) * 20)
-    print(f'Сумма к оплате {price_all} руб. с учетом 20%-ой скидки на полную стоимость заказа за регистрацию больше 5-и человек')
+if tic_num > 3:
+    price_all = price_all - ((price_all / 100) * 10)
+    print(f'Сумма к оплате {price_all} руб. с учетом 10%-ой скидки на полную стоимость заказа за регистрацию больше 5-и человек')
 else:
     print(f'Сумма к оплате {price_all} руб.')
